@@ -1,0 +1,162 @@
+snippet,prediction,correct
+"def complex_function(a, b):
+    if a > b:
+        if a > 10:
+            if b < 5:
+                return a * b
+            else:
+                return a + b
+        else:
+            return b - a
+    else:
+        return a / b",Not Readable,yes
+1234,Readable,no
+1234,Readable,no
+1234,Readable,no
+1234,Readable,no
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <form>
+        <label for=""name"">Name:</label>
+        <input type=""text"" id=""name"" name=""name""><br><br>
+        <input type=""submit"" value=""Submit"">
+    </form>
+</body>
+</html>",Readable,yes
+"def complex_function(a, b):
+    if a > b:
+        if a > 10:
+            if b < 5:
+                return a * b
+            else:
+                return a + b
+        else:
+            return b - a
+    else:
+        return a / b",Readable,no
+"def calculate_area(radius):
+    return 3.14 * radius * radius",Readable,yes
+"for (let i = 0; i < 10; i++) {
+    console.log(i);
+}",Readable,yes
+"public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+}",Readable,yes
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <form>
+        <label for=""name"">Name:</label>
+        <input type=""text"" id=""name"" name=""name""><br><br>
+        <input type=""submit"" value=""Submit"">
+    </form>
+</body>
+</html>",Readable,yes
+"def calculate_area(radius):
+return 3.14 * radius * radius",Readable,no
+"def calculate_area(radius):
+    return 3.14 * radius * radius",Readable,yes
+"def complex_function(a, b):
+    if a > b:
+        if a > 10:
+            if b < 5:
+                return a * b
+            else:
+                return a + b
+        else:
+            return b - a
+    else:
+        return a / b",Readable,no
+"body{background-color:#f0f0f0;font-family:Arial,sans-serif}
+",Readable,no
+"def calculate_area(radius):
+    return 3.14 * radius * radius
+",Not Readable,no
+"def calculate_area(radius):
+    return 3.14 * radius * radius",Not Readable,no
+"def calculate_area(radius):
+    return 3.14 * radius * radius",Not Readable,no
+1234,Not Readable,yes
+"def calculate_area(radius):
+    return 3.14 * radius * radius",Not Readable,no
+"for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
+",Readable,yes
+"public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+}
+",Readable,yes
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <form>
+        <label for=""name"">Name:</label>
+        <input type=""text"" id=""name"" name=""name""><br><br>
+        <input type=""submit"" value=""Submit"">
+    </form>
+</body>
+</html>
+",Not Readable,no
+"<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <form>
+        <label for=""name"">Name:</label>
+        <input type=""text"" id=""name"" name=""name""><br><br>
+        <input type=""submit"" value=""Submit"">
+    </form>
+</body>
+</html>",Not Readable,no
+"def calculate_area(radius):
+return 3.14 * radius * radius
+",Not Readable,yes
+"1234
+",Not Readable,yes
+"SELECT name,age FROM users WHERE age>20AND city='New York';
+",Not Readable,yes
+"function checkAge(age {
+if age < 18 {
+console.log(""Minor"");
+} else {
+console.log(""Adult"");
+}
+}
+",Not Readable,yes
+"<html>
+<head><title>Sample Page</title></head>
+<body><h1>Title</h1><p>Content here
+</body>
+</html>
+",Not Readable,yes
+"body{background-color:#f0f0f0;font-family:Arial,sans-serif}
+",Not Readable,yes
+"def complex_function(a, b):
+    if a > b:
+        if a > 10:
+            if b < 5:
+                return a * b
+            else:
+                return a + b
+        else:
+            return b - a
+    else:
+        return a / b
+",Not Readable,yes

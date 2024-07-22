@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Prediction Result</h2>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Code Snippet:</h4>
+                <pre>{{ snippet }}</pre>
+                <h4 class="card-title">Readability:</h4>
+                <p class="card-text">{{ prediction }}</p>
+                <form action="{{ url_for('feedback') }}" method="post">
+                    <input type="hidden" name="snippet" value="{{ snippet }}">
+                    <input type="hidden" name="prediction" value="{{ prediction }}">
+                    <div class="form-group">
+                        <label for="correct">Is this prediction correct?</label>
+                        <select class="form-control" id="correct" name="correct">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                </form>
+                <a href="/" class="btn btn-primary mt-3">Back</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

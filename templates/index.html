@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Readability Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Code Readability Classifier</h2>
+        <form action="/predict" method="post">
+            <div class="form-group">
+                <label for="snippet">Enter Code Snippet:</label>
+                <textarea class="form-control" id="snippet" name="snippet" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Predict Readability</button>
+        </form>
+    </div>
+</body>
+</html>
